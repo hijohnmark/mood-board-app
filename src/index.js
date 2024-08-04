@@ -4,24 +4,12 @@ import './css/index.css';
 import App from './components/App';
 import PostForm from './components/PostForm'
 import About from './components/About'
+import routes from './routes'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // import reportWebVitals from './reportWebVitals';
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />
-  },
-  {
-    path: "/newpost",
-    element: <PostForm />
-  },
-  {
-    path: "/about",
-    element: <About />
-  }
-])
+const router = createBrowserRouter(routes)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<RouterProvider router={router} />);
