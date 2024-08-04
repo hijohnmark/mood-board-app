@@ -1,9 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/index.css';
-import App from './components/App';
-import PostForm from './components/PostForm'
-import About from './components/About'
 import routes from './routes'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
