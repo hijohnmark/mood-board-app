@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './components/App';
 import PostForm from './components/PostForm'
+import About from './components/About'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // import reportWebVitals from './reportWebVitals';
