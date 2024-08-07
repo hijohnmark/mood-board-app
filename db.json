@@ -2,13 +2,13 @@
     "posts": [
       {
         "id": 1,
-        "name": "Sunny writing space",
+        "title": "Sunny writing space",
         "image": "https://images.stockcake.com/public/a/5/3/a5345bbc-a668-486e-ae80-7ca4301ccbbc_large/vintage-writing-nook-stockcake.jpg",
         "description": "This is where I see myself writing my best work."
       },
       {
         "id": 2,
-        "name": "Upcycled circut board inspo",
+        "title": "Upcycled circut board inspo",
         "image": "https://cdn.shopify.com/s/files/1/0023/1630/4444/files/TechWears-Circuit-Board-Guitar-Pick-Guard.jpg?v=1586985018",
         "description": "Combining my two loves: music and tech!"
       }
