@@ -12,9 +12,7 @@ code {
     monospace;
 } */
 
-:root {
-  --green: rgb(39, 189, 39);
-}
+
 
 * {
   margin: 0;
@@ -23,7 +21,7 @@ code {
 }
 
 body {
-  font-family: "Playfair Display", serif;
+  font-family: "Helvetica";
 }
 
 h2 {
@@ -35,11 +33,7 @@ button {
   font-family: inherit;
   border: none;
   cursor: pointer;
-}
-
-button.primary {
-  background-color: var(--green);
-  color: white;
+  background-color: rgb(145, 145, 247)
 }
 
 .app {
@@ -62,7 +56,6 @@ main {
 .new-post-form {
   padding: 2rem 1rem;
   margin: 2rem 0;
-  background-color: rgba(181, 250, 181, 0.5);
 }
 
 .new-post-form form {
@@ -95,14 +88,14 @@ input {
   border: none;
   font-family: inherit;
   font-size: 1.2em;
-  border-bottom: 2px solid gray;
+  border-bottom: 2px solid rgb(0, 179, 255);
   transition: all 0.2s;
   width: 100%;
 }
 
 input:focus {
   outline: none;
-  border-bottom: 2px solid var(--green);
+  border-bottom: 2px solid rgb(255, 0, 98);
 }
 
 .cards {
