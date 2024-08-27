@@ -5,6 +5,7 @@ const PostForm = () => {
     const [title, setTitle] = useState("")
     const [image, setImage] = useState("")
     const [description, setDescription] = useState("")
+
     const { onAddPost } = useOutletContext()
     
 
@@ -27,7 +28,7 @@ const PostForm = () => {
     }
 
     return (
-        <div>
+        <div className="new-post-form">
             <h1>Add something to your Mood Board!</h1>
             <form onSubmit={handleSubmit}>
                 
