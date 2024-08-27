@@ -6,7 +6,7 @@ function PostCard({title, image, description}) {
       <img src={image} alt={title} />
       <h4>{title}</h4>
       <p>{description}</p>
-      <button onClick={() => console.log(`You just tried to delete ${title}`)}>Delete</button>
+      <button onClick={() => console.log(`You just tried to delete ${title}. You sure 'bout that?`)}>Delete</button>
     </li>
   );
 }
