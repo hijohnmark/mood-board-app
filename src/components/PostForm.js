@@ -1,11 +1,13 @@
-import NavBar from "./NavBar"
 import React, { useState } from "react"
+import { useOutletContext } from "react-router-dom"
 
-const PostForm = ({ onAddPost }) => {
+const PostForm = () => {
     const [title, setTitle] = useState("")
     const [image, setImage] = useState("")
     const [description, setDescription] = useState("")
+    const { onAddPost } = useOutletContext()
     
+
     const handleSubmit = e => {
         e.preventDefault()
         const postData = {
@@ -26,9 +28,10 @@ const PostForm = ({ onAddPost }) => {
 
     return (
         <div>
-            <NavBar />
             <h1>Add something to your Mood Board!</h1>
             <form onSubmit={handleSubmit}>
+                
+                {/* title input */}
                 <input 
                 type="text" 
                 name="title" 
@@ -36,6 +39,8 @@ const PostForm = ({ onAddPost }) => {
                 value={title} 
                 onChange={e => setTitle(e.target.value)}
                 />
+
+                {/* image input */}
                 <input
                 type="text" 
                 name="image" 
@@ -43,6 +48,8 @@ const PostForm = ({ onAddPost }) => {
                 value={image} 
                 onChange={e => setImage(e.target.value)}
                 />
+
+                {/* description input */}
                 <input
                 type="text" 
                 name="description" 

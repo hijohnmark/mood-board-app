@@ -1,20 +1,14 @@
-import React, {useState, useEffect} from "react";
+import { useOutletContext } from "react-router-dom";
 import PostList from "./PostList";
 
 function MoodBoard() {
-const [posts, setPosts] = useState([])
 
-useEffect(() => {
-  fetch('http://localhost:4000/posts')
-  .then(r => r.json())
-  .then(data => setPosts(data))
-}, [])
-
-// const onAddPlant = newPost => setPosts([...posts, newPost])
+  const { posts } = useOutletContext()
 
   return (
     <main>
-        <PostList posts={posts} />
+      <h1>My Mood Board</h1>
+        <PostList posts={posts}/>
     </main>
   )
 }

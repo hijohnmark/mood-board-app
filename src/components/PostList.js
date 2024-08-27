@@ -1,9 +1,10 @@
 import React from "react";
 import PostCard from "./PostCard";
 
-function PostList({posts}) {
+function PostList({ posts }) {
   return (
-    <ul className="cards">{
+    <ul className="cards">
+      {
       posts.map(post => {
         return (
           <PostCard 
@@ -13,7 +14,8 @@ function PostList({posts}) {
           description={post.description}/>
         )
       })
-    }</ul>
+    }
+    </ul>
   );
 }
 
