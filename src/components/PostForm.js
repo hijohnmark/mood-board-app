@@ -29,7 +29,7 @@ const PostForm = () => {
 
     return (
         <div className="new-post-form">
-            <h1>add something to your mood board.</h1>
+            <h1>add something to your mood board</h1>
             <br></br>
             <form onSubmit={handleSubmit}>
                 
