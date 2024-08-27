@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-// import './App.css';
+import './css/index.css';
 import NavBar from "./components/NavBar";
 import { Outlet } from "react-router-dom";
 import { useState, useEffect } from "react";
