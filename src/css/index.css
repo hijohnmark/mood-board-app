@@ -43,6 +43,10 @@ button:hover {
   color: white;
 }
 
+img {
+  border-radius: 10px;
+}
+
 .app {
   margin: 0 auto;
   max-width: 1200px;
