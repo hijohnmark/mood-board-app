@@ -29,7 +29,7 @@ const PostForm = () => {
 
     return (
         <div className="new-post-form">
-            <h1>Add something to your Mood Board!</h1>
+            <h1>add something to your mood board.</h1>
             <br></br>
             <form onSubmit={handleSubmit}>
                 
@@ -37,7 +37,7 @@ const PostForm = () => {
                 <input 
                 type="text" 
                 name="title" 
-                placeholder="Add a title here"
+                placeholder="add a title here"
                 value={title} 
                 onChange={e => setTitle(e.target.value)}
                 />
@@ -46,7 +46,7 @@ const PostForm = () => {
                 <input
                 type="text" 
                 name="image" 
-                placeholder="Add an image URL here"
+                placeholder="add an image URL here"
                 value={image} 
                 onChange={e => setImage(e.target.value)}
                 />
@@ -55,11 +55,11 @@ const PostForm = () => {
                 <input
                 type="text" 
                 name="description" 
-                placeholder="How does this make you feel?"
+                placeholder="how does this make you feel?"
                 value={description} 
                 onChange={e => setDescription(e.target.value)}
                 />
-                <button type="submit">Add Post</button>
+                <button type="submit">add post</button>
             </form>
         </div>
     )

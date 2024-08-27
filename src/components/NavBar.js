@@ -8,19 +8,19 @@ function NavBar() {
             to="/"
             className="nav-link"
             >
-                Home
+                home
             </NavLink>
             <NavLink
             to="/newpost"
             className="nav-link"
             >
-                New Post
+                new post
             </NavLink>
             <NavLink 
             to="/about"
             className="nav-link"
             >
-                About
+                about
             </NavLink>
         </nav>
     )

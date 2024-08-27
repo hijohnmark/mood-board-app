@@ -7,7 +7,7 @@ function MoodBoard() {
 
   return (
     <main>
-      <h1>My Mood Board</h1>
+      <h1>my mood board</h1>
         <PostList posts={posts}/>
     </main>
   )
