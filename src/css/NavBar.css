@@ -1,20 +1,19 @@
 .nav-link{
     display: inline-block;
     box-sizing: border-box;
-    border-radius:6px;
+    border-radius:5px;
     width: 90px;
     padding: 10px;
     margin: 0 6px 6px;
-    background: rgb(0, 179, 255);
+    background: rgb(221, 221, 221);
     text-decoration: none;
     text-align: center;
     font-size: min(10vw, 15px) ;
     font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .active {
-    color: rgb(253, 254, 254);
-    background: rgb(255, 0, 98);
+    color: white;
+    background: black;
 }
