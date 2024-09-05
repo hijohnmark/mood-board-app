@@ -25,6 +25,10 @@ const PostForm = () => {
     })
     .then(r => r.json())
     .then(newPost => onAddPost(newPost))
+
+        setTitle("")
+        setImage("")
+        setDescription("")
     }
 
     return (
